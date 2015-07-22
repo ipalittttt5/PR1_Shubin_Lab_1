@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+var V1;
+V1=parseInt(prompt("V1:"));
+var V2;
+V2=parseInt(prompt("V2:"));
+var a1;
+a1=parseInt(prompt("a1:"));
+var a2;
+a2=parseInt(prompt("a2:"));
+var s;
+s=parseInt(prompt("s:"));
+document.write("<p> opredelit' vremja, cherez kotoroe vstretjat'sja dva tela, ravnouskorenno dvizhushhihsja navstrechu drug drugu, esli izvestny ih nachal'nye skorosti, uskorenija i nachal'noe rastojanie mezhdu nimi h</p>");
+document.write(Math.abs((-(V1 + V2))+Math.sqrt(Math.sqrt(V1+ V2)+(a1+a2)*2*s)/(a1+a2))); // формула
+</script>
+</body>
+</html>
