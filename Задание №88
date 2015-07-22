@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Яндекс API</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Cache-Control" content="no-cache">
+<script>
+     var text = prompt('А)'),
+	     regXP = /3/gi;
+		 text = parseInt(text);
+		 text *= text;
+		 text = "" + text + "";
+		 if (text.match(regXP)) {
+		   alert("В числе: " + text + " имеется вхождение 3");
+		 } else {
+		   alert("В числе: " + text + " не имеется вхождение 3");
+		 }
+	 
+		
+	</script>
+<script>
+var index    = prompt('Б)'),
+	     index2   = index[0],
+		 index3   = index[index.length - 1],
+		 result = [],
+		 lines = index.length;
+	
+    	if (index) {
+			 for (var s = 0; s < index.length - 1; s++) {
+				result[lines] = index[s];
+				lines--;
+			 }
+		 
+    	   result[0] = index3;
+           result[result.length - 1] = index2;		   
+	
+	       alert(result.join(''));	 
+		 }
+</script>
+	<script>
+	 var index    = prompt('В)'),
+	     index2   = index[0],
+		 index3   = index[index.length - 1],
+		 result = [],
+		 lines = index.length;
+	
+    	if (index) {
+			 for (var s = 0; s < index.length; s++) {
+				result[s] = index[s];
+			 }
+		 
+    	   result[0] = index3;
+           result[result.length - 1] = index2;		   
+	
+	       alert(result.join(''));	 
+		 }
+		var n;
+n = parseInt(prompt("Г)"));
+document.write(1,n,1);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
